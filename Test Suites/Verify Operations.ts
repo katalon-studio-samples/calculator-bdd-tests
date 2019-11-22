@@ -14,7 +14,7 @@
       <guid>665d328f-aff4-4e66-83d3-858388a521f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/operations/Verify Devide</testCaseId>
+      <testCaseId>Test Cases/operations/Verify Divide</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ce29e1c6-e375-4907-89e0-02bb907017d6</guid>
