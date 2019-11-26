@@ -1,8 +1,8 @@
-Feature: Devide
+Feature: Divide
 
-  Scenario Outline: Devide by zero
+  Scenario Outline: Divide by zero
     Given The Calculator page is loaded successfully
-    When I devide <firstOperand> by <secondOperand>
+    When I divide <firstOperand> by <secondOperand>
     Then I get the result <result>
 
     Examples: 
