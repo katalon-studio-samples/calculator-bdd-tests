@@ -15,3 +15,7 @@ build
 .classpath
 
 .project 
+
+.cache
+
+.DS_Store

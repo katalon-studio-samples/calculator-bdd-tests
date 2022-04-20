@@ -43,10 +43,10 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class Devide {
+class Divide {
 
-	@When("I devide (\\d+) by (\\d+)")
-	def devide_by_zero(long firstOperand, long secondOperand) {
-		WebUI.callTestCase(findTestCase("Test Cases/common/Devide number"), [ ('firstOperand') : firstOperand, ('secondOperand') : secondOperand ], FailureHandling.STOP_ON_FAILURE)
+	@When("I divide (\\d+) by (\\d+)")
+	def divide_by_zero(long firstOperand, long secondOperand) {
+		WebUI.callTestCase(findTestCase("Test Cases/common/Divide number"), [ ('firstOperand') : firstOperand, ('secondOperand') : secondOperand ], FailureHandling.STOP_ON_FAILURE)
 	}
 }
