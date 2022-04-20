@@ -17,3 +17,5 @@ build
 .project 
 
 .cache
+
+.DS_Store
