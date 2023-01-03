@@ -1,8 +1,8 @@
-name: Trigger auto sync
+name: Trigger auto sync in production environment
 on:
   workflow_dispatch:
   push:
-    branch:
+    branches:
       - master
 
 jobs:
