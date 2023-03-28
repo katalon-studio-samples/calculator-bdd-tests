@@ -45,7 +45,7 @@ import cucumber.api.java.en.When
 
 class Divide {
 
-	@When("I divide (\\d+) by (\\d+)")
+	@When("I divide {int} by {int}")
 	def divide_by_zero(long firstOperand, long secondOperand) {
 		WebUI.callTestCase(findTestCase("Test Cases/common/Divide number"), [ ('firstOperand') : firstOperand, ('secondOperand') : secondOperand ], FailureHandling.STOP_ON_FAILURE)
 	}

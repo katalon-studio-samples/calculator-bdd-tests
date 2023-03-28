@@ -46,7 +46,7 @@ import cucumber.api.java.en.When
 
 class Minus {
 
-	@When("(\\d+) minus (\\d+)")
+	@When("{int} minus {int}")
 	def minus(long firstOperand, long secondOperand) {
 		WebUI.callTestCase(findTestCase("Test Cases/common/Minus number"), [ ('firstOperand') : firstOperand, ('secondOperand') : secondOperand ], FailureHandling.STOP_ON_FAILURE)
 	}

@@ -46,7 +46,7 @@ import cucumber.api.java.en.When
 
 class Plus {
 
-	@When("(\\d+) plus (\\d+)")
+	@When("{int} plus {int}")
 	def multiply(long firstOperand, long secondOperand) {
 		WebUI.callTestCase(findTestCase("Test Cases/common/Plus number"), [ ('firstOperand') : firstOperand, ('secondOperand') : secondOperand ], FailureHandling.STOP_ON_FAILURE)
 	}

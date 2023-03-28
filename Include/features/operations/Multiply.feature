@@ -7,5 +7,5 @@ Feature: Multiply
 
     Examples: 
       | firstOperand | secondOperand | result |
-      | 27           | 20            | 540    |
-      | 123          | 456           | 56088  |
+      |           27 |            20 |    540 |
+      |          123 |           456 |  56088 |
