@@ -21,6 +21,7 @@ import com.kms.katalon.core.annotation.AfterTestCase
 import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 class Listener {
 	
@@ -34,7 +35,7 @@ class Listener {
 	}
 
 	/**
-	 * Add GLUE option helps Cucumber to locate the step definition files.
+	 * Add the GLUE option for Cucumber to locate the step definition files.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
