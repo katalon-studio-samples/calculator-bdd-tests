@@ -17,7 +17,7 @@ class Listener {
 	}
 
 	/**
-	 * Add GLUE option helps Cucumber to locate the step definition file. We specify the package to load glue code (step definitions or hooks) in the glue option
+	 * Add GLUE option helps Cucumber to locate the step definition files.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
