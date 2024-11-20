@@ -46,7 +46,7 @@ import cucumber.api.java.en.When
 
 class Multiply {
 
-	@When("I multiply (\\d+) by (\\d+)")
+	@When("I multiply {int} by {int}")
 	def multiply(long firstOperand, long secondOperand) {
 		WebUI.callTestCase(findTestCase("Test Cases/common/Multiply number"), [ ('firstOperand') : firstOperand, ('secondOperand') : secondOperand ], FailureHandling.STOP_ON_FAILURE)
 	}
