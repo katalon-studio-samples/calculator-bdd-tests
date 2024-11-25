@@ -7,5 +7,5 @@ Feature: Minus3
 
     Examples: 
       | firstOperand | secondOperand | result |
-      | 10           | 20            | -10    |
-      | 123          | 456           | -333   |
+      |           10 |            20 |    -10 |
+      |          123 |           456 |   -333 |
