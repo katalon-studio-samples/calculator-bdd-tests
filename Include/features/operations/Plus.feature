@@ -7,5 +7,5 @@ Feature: Plus
 
     Examples: 
       | firstOperand | secondOperand | result |
-      | 10           | 20            | 30     |
-      | 123          | 456           | 579    |
+      |           10 |            20 |     30 |
+      |          123 |           456 |    579 |
