@@ -38,10 +38,10 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
-import cucumber.api.java.en.And
-import cucumber.api.java.en.Given
-import cucumber.api.java.en.Then
-import cucumber.api.java.en.When
+import io.cucumber.java.en.And
+import io.cucumber.java.en.Given
+import io.cucumber.java.en.Then
+import io.cucumber.java.en.When
 
 
 class Common {
@@ -51,7 +51,7 @@ class Common {
 		WebUI.callTestCase(findTestCase("Test Cases/common/The Calculator page is loaded successfully"), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("I get the result (.*)")
+	@Then("I get the result {}")
 	def check_result(String result) {
 		WebUI.callTestCase(findTestCase('Test Cases/common/Check result'), [ ('result') : result ], FailureHandling.STOP_ON_FAILURE)
 	}
