@@ -1,3 +1,10 @@
+/**
+ * Verify Minus Operation Test
+ * 
+ * This test verifies the subtraction operation functionality of the calculator.
+ * It runs the Minus.feature file which contains scenarios for subtracting two numbers.
+ */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

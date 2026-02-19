@@ -1,3 +1,10 @@
+/**
+ * Verify Divide Operation Test
+ * 
+ * This test verifies the division operation functionality of the calculator.
+ * It runs the Divide.feature file which contains scenarios for dividing two numbers.
+ */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
