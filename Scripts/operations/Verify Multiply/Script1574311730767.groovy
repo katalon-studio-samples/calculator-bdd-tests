@@ -1,3 +1,10 @@
+/**
+ * Verify Multiply Operation Test
+ * 
+ * This test verifies the multiplication operation functionality of the calculator.
+ * It runs the Multiply.feature file which contains scenarios for multiplying two numbers.
+ */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

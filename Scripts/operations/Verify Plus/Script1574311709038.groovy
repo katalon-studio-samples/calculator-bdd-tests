@@ -1,3 +1,10 @@
+/**
+ * Verify Plus Operation Test
+ * 
+ * This test verifies the addition operation functionality of the calculator.
+ * It runs the Plus.feature file which contains scenarios for adding two numbers.
+ */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
